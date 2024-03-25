@@ -36,10 +36,10 @@ body{
         color: #2e2f42;
 }
 .heder-menu-studio:hover {
-    color: #434455;}
+    color: #404bbf;}
 
 .heder-menu-studio:focus {
-    color: #434455;
+    color: #404bbf;
 }
 .heder-menu-studio:active {
     color: #4d5ae5;
@@ -57,6 +57,7 @@ body{
     color: #2e2f42;
 }
 .contact-info {
+    font-style: normal 
 }
 .contact-email {
     font-weight: 400;
@@ -64,6 +65,12 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.contact-info :hover {
+    color: #404bbf 
+}
+.contact-info :focus {
+    color: #404bbf 
 }
 .contact-telephon {
     font-weight: 400;
@@ -82,33 +89,31 @@ body{
 .business-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
-.business-button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-}
-.business-button :hover {
+.business-button { 
     font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    color: #fff;}
-.business-button :focus {
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    color: #fff;
-}
-.business-button :active {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff ;
+    background: #4d5ae5;
+}
+
+.business-button :hover { 
+    cursor: pointer;
+    background-color: #404BBF
+}
+.business-button :focus {
+    cursor: pointer;
+    background-color: #404BBF
+}
+.business-button :active {
+    
 }
 
 /* --------section first --------*/
@@ -139,16 +144,19 @@ body{
 /* -------section second--------- */
 
 .section-second {
+    background: #f4f4fd;
 }
 .second-subject {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .second-lists {
+    background-color: #FFFFFF
 }
 .second-list {
 }
@@ -178,9 +186,10 @@ body{
 .three-subject {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .three-lists {
@@ -214,16 +223,16 @@ body{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
 .footer-logo-part {
-    font-family: "Raleway", sans-serif;
+    font-family:"Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
