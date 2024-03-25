@@ -127,7 +127,7 @@ body{
 /* -------section second--------- */
 
 .second {
-    background: #FFFFFF;
+    background-color: #F4F4FD;
 }
 .second-subject {
     font-weight: 700;
@@ -139,7 +139,7 @@ body{
     color: #2e2f42;
 }
 .second-lists {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 .second-list {
     
